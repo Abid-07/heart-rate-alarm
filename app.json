@@ -1,0 +1,62 @@
+{
+  "configVersion": "v3",
+  "app": {
+    "appId": 20001,
+    "bundleId": "com.pulse.alarm",
+    "appName": "Heart Rate Alarm",
+    "description": "An active wake-up alarm that disarms when your heart rate rises +15 BPM.",
+    "vender": "zepp",
+    "version": {
+      "code": 1,
+      "name": "1.0.0"
+    },
+    "icon": "icon.png",
+    "appType": "app"
+  },
+  "permissions": [
+    "data:user.hd.heart_rate",
+    "data:user.hd.step",
+    "device:os.bg_sensor",
+    "device:os.sensor",
+    "device:os.alarm",
+    "device:os.vibrator",
+    "data:os.device.info"
+  ],
+  "runtime": {
+    "apiVersion": {
+      "compatible": "4.2",
+      "target": "4.2",
+      "minVersion": "4.2"
+    }
+  },
+  "targets": {
+    "390x450-amazfit-bip-6": {
+      "module": {
+        "page": {
+          "pages": ["page/index"]
+        }
+      },
+      "designWidth": 390,
+      "platforms": [
+        {
+          "st": "s",
+          "deviceSource": 9765120
+        },
+        {
+          "st": "s",
+          "deviceSource": 9765121
+        },
+        {
+          "st": "s",
+          "deviceSource": 10158337
+        }
+      ]
+    }
+  },
+  "i18n": {
+    "en-US": {
+      "appName": "Heart Rate Alarm"
+    }
+  },
+  "defaultLanguage": "en-US"
+}
