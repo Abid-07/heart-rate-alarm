@@ -143,7 +143,7 @@ Page({
 
     const title = createWidget(widget.TEXT, {
       x: 0,
-      y: 45,
+      y: 75,
       w: 390,
       h: 30,
       color: 0xffffff,
@@ -154,9 +154,9 @@ Page({
 
     this.state.timeDisplayWidget = createWidget(widget.TEXT, {
       x: 0,
-      y: 80,
+      y: 110,
       w: 390,
-      h: 48,
+      h: 46,
       color: 0x00e5ff,
       text_size: 40,
       align_h: align.CENTER_H,
@@ -166,9 +166,9 @@ Page({
 
     const btnHourMinus = createWidget(widget.BUTTON, {
       x: 35,
-      y: 135,
+      y: 160,
       w: 150,
-      h: 38,
+      h: 36,
       radius: 10,
       normal_color: 0x222222,
       press_color: 0x444444,
@@ -182,9 +182,9 @@ Page({
 
     const btnHourPlus = createWidget(widget.BUTTON, {
       x: 205,
-      y: 135,
+      y: 160,
       w: 150,
-      h: 38,
+      h: 36,
       radius: 10,
       normal_color: 0x222222,
       press_color: 0x444444,
@@ -198,9 +198,9 @@ Page({
 
     const btnMin5Minus = createWidget(widget.BUTTON, {
       x: 35,
-      y: 178,
+      y: 200,
       w: 150,
-      h: 38,
+      h: 36,
       radius: 10,
       normal_color: 0x222222,
       press_color: 0x444444,
@@ -214,9 +214,9 @@ Page({
 
     const btnMin5Plus = createWidget(widget.BUTTON, {
       x: 205,
-      y: 178,
+      y: 200,
       w: 150,
-      h: 38,
+      h: 36,
       radius: 10,
       normal_color: 0x222222,
       press_color: 0x444444,
@@ -230,9 +230,9 @@ Page({
 
     const btnMin1Minus = createWidget(widget.BUTTON, {
       x: 35,
-      y: 221,
+      y: 240,
       w: 150,
-      h: 38,
+      h: 36,
       radius: 10,
       normal_color: 0x222222,
       press_color: 0x444444,
@@ -246,9 +246,9 @@ Page({
 
     const btnMin1Plus = createWidget(widget.BUTTON, {
       x: 205,
-      y: 221,
+      y: 240,
       w: 150,
-      h: 38,
+      h: 36,
       radius: 10,
       normal_color: 0x222222,
       press_color: 0x444444,
@@ -262,9 +262,9 @@ Page({
 
     const btnSetAlarm = createWidget(widget.BUTTON, {
       x: 35,
-      y: 265,
+      y: 282,
       w: 320,
-      h: 48,
+      h: 44,
       radius: 16,
       normal_color: 0x00c853,
       press_color: 0x00e676,
@@ -277,9 +277,9 @@ Page({
 
     const btnTestNow = createWidget(widget.BUTTON, {
       x: 35,
-      y: 318,
+      y: 332,
       w: 320,
-      h: 42,
+      h: 40,
       radius: 14,
       normal_color: 0xd50000,
       press_color: 0xff1744,
@@ -292,9 +292,9 @@ Page({
 
     const infoNotice = createWidget(widget.TEXT, {
       x: 20,
-      y: 365,
+      y: 378,
       w: 350,
-      h: 55,
+      h: 50,
       color: 0x888888,
       text_size: 13,
       align_h: align.CENTER_H,
@@ -438,7 +438,7 @@ Page({
 
     this.state.titleWidget = createWidget(widget.TEXT, {
       x: 0,
-      y: 50,
+      y: 75,
       w: 390,
       h: 36,
       color: 0xff1744,
@@ -449,7 +449,7 @@ Page({
 
     this.state.pulseIconWidget = createWidget(widget.TEXT, {
       x: 0,
-      y: 90,
+      y: 112,
       w: 390,
       h: 28,
       color: 0xff1744,
@@ -460,9 +460,9 @@ Page({
 
     this.state.bpmDisplayWidget = createWidget(widget.TEXT, {
       x: 0,
-      y: 122,
+      y: 142,
       w: 390,
-      h: 70,
+      h: 65,
       color: 0xff1744,
       text_size: 48,
       align_h: align.CENTER_H,
@@ -472,7 +472,7 @@ Page({
 
     this.state.statusNoticeWidget = createWidget(widget.TEXT, {
       x: 20,
-      y: 195,
+      y: 212,
       w: 350,
       h: 55,
       color: 0xffffff,
